@@ -35,11 +35,8 @@ def get_filters():
         return city,month,day
     else :
         print('invalid input')
-        ii= input("press 1 to restart or any key to exit")
-        if ii == "1":
-            get_filters()
-        else :
-            print('end')
+        get_filters()
+        
     
     
     
